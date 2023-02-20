@@ -8,6 +8,7 @@ position            Blockchain Developer > Software Engineer
 phone               (+54) 11 - 5514 - 2184
 
   $> education
+
 high school         Juan XXIII (Junior Systems Analyst)
 university          UNLaM (Software Engineer)
 
@@ -18,24 +19,17 @@ Very proactive person, always looking forward to improve the team and myself.
 Quick, passionate learner who successfully collaborated remotely to create excellent products.
 Lately, I've been getting into bug bounties, securing contracts and DeFi developments.
 
-Solidity
-[##############################] 100.0%
-PyTeal
-[##############################] 100.0%
-Ruby
-[##############################] 100.0%
-JavaScript
-[##############################] 100.0%
-React JS
-[##############################] 100.0%
-React Native
-[#######################-------]  75.0%
-Java
-[#######################-------]  75.0%
+Solidity        [##############################] 100.0%
+PyTeal          [##############################] 100.0%
+Ruby            [##############################] 100.0%
+JavaScript      [##############################] 100.0%
+React JS        [##############################] 100.0%
+React Native    [#######################-------]  75.0%
+Java            [#######################-------]  75.0%
 
 Note: {{ Simplicity First }}
 
-  $> Work experience
+  $> work experience
 
 - Honky Tonk        Junior developer (oct 2016 - may 2018)
 Developed and manteined a web site and e-commerce.

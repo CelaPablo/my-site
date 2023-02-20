@@ -1,5 +1,5 @@
 {
-  "name": "strml.net",
+  "name": "Cela Paablo",
   "version": "0.0.1",
   "description": "",
   "main": "app.js",
@@ -9,8 +9,7 @@
     "dev": "webpack serve --open",
     "watch": "webpack --progress --watch"
   },
-  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
-  "license": "MIT",
+  "author": "Cela Pablo <celapablo9@gmail.com>",
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
