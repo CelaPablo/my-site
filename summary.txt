@@ -1,0 +1,51 @@
+  $> who am i
+
+full name           Pablo Cela
+email               celapablo9@gmail.com
+location            San Justo, Buenos Aires - Argentina
+Argentina           31
+position            Blockchain Developer > Software Engineer
+phone               (+54) 11 - 5514 - 2184
+
+  $> education
+high school         Juan XXIII (Junior Systems Analyst)
+university          UNLaM (Software Engineer)
+
+  $> summary
+
+I can take any idea to its full implementation and final release.
+Very proactive person, always looking forward to improve the team and myself.
+Quick, passionate learner who successfully collaborated remotely to create excellent products.
+Lately, I've been getting into bug bounties, securing contracts and DeFi developments.
+
+Solidity
+[##############################] 100.0%
+PyTeal
+[##############################] 100.0%
+Ruby
+[##############################] 100.0%
+JavaScript
+[##############################] 100.0%
+React JS
+[##############################] 100.0%
+React Native
+[#######################-------]  75.0%
+Java
+[#######################-------]  75.0%
+
+Note: {{ Simplicity First }}
+
+  $> Work experience
+
+- Honky Tonk        Junior developer (oct 2016 - may 2018)
+Developed and manteined a web site and e-commerce.
+
+- 100 Radios       Junior developer (june 2018 - dec 2018)
+Developed a web and mobile app to stream radio and music.
+
+- Ridges           Main developer (dec 2018 - may 2019)
+Cryolipolysis application developed with React Native.
+
+- Sonder           Main developer (june 2019 - dec 2020)
+Created a gamified e-commerce platform for B2B interactions.
+Used the Ethereum blockchain to do escrow, to negotiate prices and to secure transactions.

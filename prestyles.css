@@ -1,0 +1,124 @@
+/* I'm cheating a bit */
+@font-face{
+  font-family: "PT Mono";
+  src: local("PT Mono"), local("PTMono-Regular"), url(./Resources/fonts/PTMono-Regular.woff2) format("woff2");
+  font-display:swap;
+  font-weight:400;
+  font-style:normal
+}
+
+@font-face{
+  font-family:"PT Mono";
+  src: local("PT Mono Bold"), local("PTMono-Bold"), url(./Resources/fonts/PTMono-Bold.woff2) format("woff2");
+  font-display:swap;
+  font-weight:700;
+  font-style:normal
+}
+
+html {
+  background: rgb(0, 0, 0);
+}
+
+body {
+  margin: 20px;
+  font-family: "PT Mono", monospace;
+  background-color: black;
+  font-weight: 400;
+  color: #0bd38a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin-top: 0;
+  height: 100%;
+  overflow: hidden;
+  background: black;
+}
+
+pre {
+  overflow: auto;
+  max-height: 90%;
+  width: 100%;
+  border-radius: 1px; /* Prevents bad clipping in Chrome */
+}
+
+pre:hover{
+  box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
+}
+
+.value {
+  text-shadow: 0px 15px 1px white;
+}
+
+#content {
+  position: absolute;
+  top: 0; right: 0; left: 0; bottom: 20px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+}
+
+a {
+  font-family: "PT Mono", monospace;
+  color: #0bd38a;
+  margin-bottom: 5px;
+}
+
+a:after {
+  content: '';
+  padding-right: 5px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-color: inherit;
+}
+
+a:last-of-type:after {
+  border: none;
+}
+
+#img-title {
+  display: block;
+  margin: 3% auto;
+  width: 50%;
+}
+
+pre {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 60vh;
+  width: 50%;
+  font-size: 14px;
+  font-family: "PT Mono", monospace;
+  padding: 1vh 0.5vw;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+  margin: 1vh auto;
+}
+
+.skip-amination {
+  margin-left: 25%;
+}
+
+/* -------------------- */
+@media (max-width: 900px) {
+  pre {
+    width: 70%;
+  }
+
+  #img-title {
+    width: 60%;
+  }
+
+  .skip-amination {
+    margin-left: 15%;
+  }
+}
