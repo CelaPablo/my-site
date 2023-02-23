@@ -3,7 +3,7 @@
 full name           Pablo Cela
 email               celapablo9@gmail.com
 location            San Justo, Buenos Aires - Argentina
-Argentina           31
+Age                 31
 position            Blockchain Developer > Software Engineer
 phone               (+54) 11 - 5514 - 2184
 
@@ -19,27 +19,58 @@ Very proactive person, always looking forward to improve the team and myself.
 Quick, passionate learner who successfully collaborated remotely to create excellent products.
 Lately, I've been getting into bug bounties, securing contracts and DeFi developments.
 
-Solidity        [##############################] 100.0%
-PyTeal          [##############################] 100.0%
-Ruby            [##############################] 100.0%
-JavaScript      [##############################] 100.0%
-React JS        [##############################] 100.0%
-React Native    [#######################-------]  75.0%
-Java            [#######################-------]  75.0%
+Spanish             [##############################] 100.0%
+English             [############################# ]  95.0%
+C-Lang              [##############################] 100.0%
 
-Note: {{ Simplicity First }}
+Solidity            [##############################] 100.0%
+PyTeal              [##############################] 100.0%
+Ruby                [##############################] 100.0%
+JavaScript          [##############################] 100.0%
+React JS            [##############################] 100.0%
+React Native        [#######################       ]  75.0%
+Java                [#######################       ]  75.0%
+
+        Note: {{ Simplicity First }}
 
   $> work experience
 
 - Honky Tonk        Junior developer (oct 2016 - may 2018)
-Developed and manteined a web site and e-commerce.
+  Developed and maintained a small website for the store.
 
-- 100 Radios       Junior developer (june 2018 - dec 2018)
-Developed a web and mobile app to stream radio and music.
+- Cien Radios       Junior developer (jun 2018 - dec 2018)
+  Developed a -Spotify like- website and mobile app to stream music.
+  They were build on React JS and React Native respectively.
+  We used the Deezer API as the backend.
 
 - Ridges           Main developer (dec 2018 - may 2019)
-Cryolipolysis application developed with React Native.
+  Developed an Android application that connected to a medical
+  external device to operate it.
+  The controlled device executed a cryolipolysis treatment on patients.
 
-- Sonder           Main developer (june 2019 - dec 2020)
-Created a gamified e-commerce platform for B2B interactions.
-Used the Ethereum blockchain to do escrow, to negotiate prices and to secure transactions.
+- Sonder           Main developer (jul 2019 - dec 2020)
+  Created a gamified e-commerce platform for B2B interactions.
+  Used the Ethereum blockchain to do escrow,
+  to negotiate prices and to secure transactions.
+
+- ALLY              Main developer (jan 2021 - present)
+  We are -building- DeFi protocols on the AVM.
+  Ally is a protocol that takes care of committing and voting to Algorand's
+  governance by dividing the TLV into Vaults to allow redemptions
+  without losing rewards.
+
+  $> ethereum tools
+
+✓ OpenZeppelin contracts
+✓ Remix IDE
+✓ Hardhat
+✓ Truffle
+✓ Ganache
+✓ Web3
+✓ Ethers
+✓ Infura
+✓ Solc
+✓ Teal
+✓ Goal
+
+  $>
