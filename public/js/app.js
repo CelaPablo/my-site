@@ -1,5 +1,4 @@
 const summaryText = `
-
 $> whoami
 
 full name           Pablo Cela
@@ -9,10 +8,12 @@ Age                 31
 position            Blockchain Developer > Software Engineer
 phone               (+54 9) 11-2401-4911
 
+
 $> git commit -am "education"
 
 high school         Juan XXIII (Systems Analyst)
 university          UNLaM (Software Engineer)
+
 
 $> ls -la summary
 
@@ -30,36 +31,38 @@ C-Lang              [##############################] 100.0%
 Solidity            [##############################] 100.0%
 Teal                [##############################] 100.0%
 JavaScript          [##############################] 100.0%
-Phyton              [############################# ]  95.0%
+Python              [############################# ]  95.0%
 React JS            [##############################] 100.0%
 React Native        [############################  ]  90.0%
 Ruby                [##############################] 100.0%
 
+
 $> echo $WORK_EXPERIENCE
 
-- Honky Tonk        Junior developer (oct 2016 - may 2018)
-  Developed and maintained a small website for the store.
+- ALLY             Smart Contracts Developer (jan 2021 - present)
+  We are -buidling- DeFi protocols on the AVM.
+  Ally is a protocol that takes care of committing and voting to Algorand's
+  governance by dividing the TLV into Vaults to allow redemptions
+  without losing rewards.
+
+- Sonder           Ethereum Developer (jul 2019 - dec 2020)
+  Created a gamified e-commerce platform for B2B interactions.
+  Used the Ethereum blockchain to do escrow,
+  to negotiate prices and to secure transactions.
+
+- Ridges           Full Stack Developer (dec 2018 - may 2019)
+  Developed an Android application that connected to a medical
+  external device to operate it.
+  The controlled device executed a cryolipolysis treatment on patients.
 
 - Cien Radios       Junior developer (jun 2018 - dec 2018)
   Developed a -Spotify like- website and mobile app to stream music.
   They were build on React JS and React Native respectively.
   We used the Deezer API as the backend.
 
-- Ridges           Main developer (dec 2018 - may 2019)
-  Developed an Android application that connected to a medical
-  external device to operate it.
-  The controlled device executed a cryolipolysis treatment on patients.
+- Honky Tonk        Junior developer (oct 2016 - may 2018)
+  Developed and maintained a small website for the store.
 
-- Sonder           Main developer (jul 2019 - dec 2020)
-  Created a gamified e-commerce platform for B2B interactions.
-  Used the Ethereum blockchain to do escrow,
-  to negotiate prices and to secure transactions.
-
-- ALLY              Main developer (jan 2021 - present)
-  We are -buidling- DeFi protocols on the AVM.
-  Ally is a protocol that takes care of committing and voting to Algorand's
-  governance by dividing the TLV into Vaults to allow redemptions
-  without losing rewards.
 
 $> git show ethereum-tools
 
@@ -74,6 +77,7 @@ $> git show ethereum-tools
 ✓ Solc
 ✓ Teal
 ✓ Goal
+
 
 $> _
 
