@@ -1,12 +1,16 @@
+const birthdate = new Date(1991, 4, 30);
+console.log(birthdate);
+const age = getAge(birthdate);
+
 const summaryText = `
 $> whoami
 
-full name           Pablo Cela
+full name           Pablo Andrés Cela
 email               celapablo9@gmail.com
 location            Buenos Aires, Argentina
-Age                 31
+age                 ${age}
 position            Blockchain Developer > Software Engineer
-phone               (+54 9) 11-2401-4911
+phone               (+54 9) 11-5514-2184
 
 
 $> git commit -am "education"
@@ -31,10 +35,12 @@ C-Lang              [##############################] 100.0%
 Solidity            [##############################] 100.0%
 Teal                [##############################] 100.0%
 JavaScript          [##############################] 100.0%
+Node.js             [############################  ]  90.0%
 Python              [############################# ]  95.0%
 React JS            [##############################] 100.0%
 React Native        [############################  ]  90.0%
 Ruby                [##############################] 100.0%
+Git                 [##############################] 100.0%
 
 
 $> echo $WORK_EXPERIENCE
@@ -194,3 +200,11 @@ function createEventHandlers() {
 function writeSimpleChar(el, char) {
   el.innerHTML += char;
 };
+
+function getAge(birthdate) {
+  const today = new Date();
+  const age = today.getFullYear() - birthdate.getFullYear() - 
+             (today.getMonth() < birthdate.getMonth() || 
+             (today.getMonth() === birthdate.getMonth() && today.getDate() < birthdate.getDate()));
+  return age;
+}

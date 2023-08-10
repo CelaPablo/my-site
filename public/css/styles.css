@@ -36,17 +36,6 @@ html, body {
   background: black;
 }
 
-pre {
-  overflow: auto;
-  max-height: 90%;
-  width: 100%;
-  border-radius: 1px; /* Prevents bad clipping in Chrome */
-}
-
-pre:hover{
-  box-shadow: 0px 0px 40px 5px rgba(255,255,255,0.4);
-}
-
 .value {
   text-shadow: 0px 15px 1px white;
 }
@@ -58,16 +47,15 @@ pre:hover{
 
 #footer {
   position: absolute;
-  bottom: 10px;
-  height: 20px;
-  left: 0;
+  bottom: 12px;
+  height: 30px;
   right: 0;
   padding: 0 10px;
 }
 
 a {
   font-family: "PT Mono", monospace;
-  color: #0bd38a;
+  color: rgb(11, 211, 138);
   margin-bottom: 5px;
 }
 
@@ -84,16 +72,37 @@ a:last-of-type:after {
   border: none;
 }
 
+a:hover {
+ font-size: 17px;
+ font-weight: bold;
+}
+
 #img-title {
   display: block;
   margin: 3% auto;
   width: 50%;
 }
 
+#skip-animation {
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
 pre {
   overflow: auto;
-  background: rgb(48, 48, 48);
-  border: 1px solid #ccc;
+  max-height: 90%;
+  width: 100%;
+  border-radius: 1px; /* Prevents bad clipping in Chrome */
+}
+
+pre:hover{
+  box-shadow: 0px 0px 40px 5px rgba(11, 211, 138, 0.4);
+}
+
+pre {
+  overflow: auto;
+  background: #131212;
+  border: 1px solid rgb(11, 211, 138);
   height: 60vh;
   max-height: 60vh;
   width: 50%;
@@ -106,10 +115,9 @@ pre {
   margin: 1vh auto;
 }
 
-#skip-animation {
-  margin-left: 25%;
+object {
+  vertical-align: middle;
 }
-
 /* -------------------- */
 @media (max-width: 900px) {
   pre {
